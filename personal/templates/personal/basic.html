@@ -1,4 +1,6 @@
 {% extends "personal/header.html" %}
 {% block content %}
-{% include 'personal/includes/htmlsnippet.html' %}
+    {% for c in content %}
+        <p>{{c}}</p>
+    {% endfor %}
 {% endblock %}
