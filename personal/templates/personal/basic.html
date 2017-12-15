@@ -1,6 +1,10 @@
 {% extends "personal/header.html" %}
 {% block content %}
     {% for c in content %}
-        <p>{{c}}</p>
+    <div class="card">
+            <div class="card-body">
+              {{c}}
+            </div>
+          </div>
     {% endfor %}
 {% endblock %}
