@@ -177,3 +177,7 @@ footer p {
   margin-bottom: 1.25rem;
   color: #999;
 }
+
+.justify p {
+  text-align: justify;
+}
