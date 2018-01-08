@@ -2,75 +2,45 @@
 {% block content %}
 <main role="main">
         
-              <section class="jumbotron text-center">
+              <section class="jumbotron text-center" style="background-image: url(static/personal/img/try.png)">
                 <div class="container">
-                  <h1 class="jumbotron-heading">Album example</h1>
-                  <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-                  <p>
-                    <a href="#" class="btn btn-primary">Main call to action</a>
-                    <a href="#" class="btn btn-secondary">Secondary action</a>
-                  </p>
+                  <h1 class="jumbotron-heading">Welcome</h1>
+                  <p class="lead text-muted"><i>"The best among you are those who have good character and conduct."</i>  ~ The most Noble man</p>
+                  <p>Avid Learner , Philomath and Programmer</p>
+                  
                 </div>
               </section>
         
               <div class="album text-muted">
                 <div class="container">
-                  <h2 align="center">On Going</h2>
-                  <div class="row">
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                      <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                      <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                      <p class="card-text text-justiy">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-        
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                      <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                      <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                      <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-        
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                      <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                      <p class="card-text text-justify">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                      <p class="card-text text=justify ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                  <h2 align="center ">Extra Curricular</h2>
-                  <div class="row">
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                    </div>
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                    </div>
-                    <div class="card">
-                      <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-                    </div>
-                  </div>
-        
-                </div>
-              </div>
-        
+                    <div class="jumbotron">
+                        <h1 class="display-4">About Me</h1>
+                        <p class="lead">I am an avid reader of technical books and always trying to apply the theoritical knowledge gained into the real world. I like to work on projects and prefer to solve any real world issues with my skillset. I think it's high time that we think about the term known as "Social Engineering".</p>
+                        <p class="lead">Being from a Computer Science major, where the life is around space and time complexity, I try to maintain simplicity and readability while programming. </p>    
+                       </div>
+                       <br>
+                    <h1 class="display-4" align="center">My Interests</h1>                    
+                    <div class = "row">
+                        <div class="col-md-12">
+                          {% load staticfiles %}
+                            <img class="card-img" src="{% static 'personal/img/interests.png' %}" alt="Card image">
+                          </div>
+                    </div> 
+                    <br>
+                    <h1 class="display-4" align="center">My Hobbies</h1>                    
+                    <div class = "row">
+                        <div class="col-md-6">
+                          {% load staticfiles %}
+                            <img class="card-img" src="{% static 'personal/img/Calligraphy.jpg' %}" alt="Card image">
+                          <p align="center" class="lead">Calligraphy(Arabic)</p>
+                          </div>
+                              <div class="col-md-6">
+                                {% load staticfiles %}
+                                  <img class="card-img" src="{% static 'personal/img/sports.jpg' %}" alt="Card image">
+                                <p align="center" class="lead">Sports</p>
+                                </div>
+                          </div> 
+                    </div> 
+                </div>        
             </main>
 {% endblock %}
