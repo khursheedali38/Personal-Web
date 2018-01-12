@@ -78,7 +78,7 @@ body {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #201e1e;
+  background-color: #000;
 }
 img {
   max-width: 100%;
@@ -91,7 +91,7 @@ img {
   padding: .75rem;
   margin-bottom: 2rem;
   border: 0;
-  background-color: #0000;
+  background-color: #000;
   color:#fff;
 }
 

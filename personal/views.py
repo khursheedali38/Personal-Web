@@ -6,8 +6,8 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'personal/home.html') 
 
-def tutorials(request):
-    return render(request, 'personal/basic.html', {'content':['staty tunedIf you would like to contact me regarding any project related discussions. Please email me.', 'khursheedali38@gmail.com']})
+def projects(request):
+    return render(request, 'personal/projects.html')
 
 def resume(request):
     file = open('personal/templates/personal/documents/CV_Updated.pdf', 'rb')
