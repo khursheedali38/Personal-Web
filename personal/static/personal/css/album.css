@@ -1,7 +1,54 @@
+html,
 body {
-  min-height: 75rem; /* Can be removed; just added for demo purposes */
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
 }
 
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+.inner h1{
+  font-family: "Times New Roman", Times, serif  ;
+  font-weight: 700;
+}
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+  /* Handle the widths */
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    text-align: center;
+  }
+}
+
+@media (min-width: 62em) {
+  .cover-container {
+    width: 42rem;
+  }
+}
 
 .navbar {
   margin-bottom: 5px;
@@ -31,7 +78,7 @@ body {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #f7f7f7;
+  background-color: #201e1e;
 }
 img {
   max-width: 100%;
@@ -44,6 +91,8 @@ img {
   padding: .75rem;
   margin-bottom: 2rem;
   border: 0;
+  background-color: #0000;
+  color:#fff;
 }
 
 .card > img {
@@ -115,6 +164,9 @@ footer p {
  * Blog name and description
  */
 
+ .blog-post {
+   color:#fff;
+ }
 .blog-header {
   padding-bottom: 1.25rem;
   margin-bottom: 2rem;
