@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django_markdown',
-    'webapp',
     'personal', 
     'blog',
     'django.contrib.admin',
