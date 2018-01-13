@@ -22,5 +22,6 @@ urlpatterns = [
     url(r'^webapp/', include('webapp.urls')),
     url(r'^', include('personal.urls')),
     url(r'^blog/', include('blog.urls')),
+    url(r'^markdown/', include( 'django_markdown.urls')),
 
 ]

@@ -237,3 +237,13 @@ footer p {
 .justify p {
   text-align: justify;
 }
+
+code, pre {
+  background-color: #000;
+  color: #c3c3c3;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

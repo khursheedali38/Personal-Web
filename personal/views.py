@@ -12,5 +12,4 @@ def projects(request):
 def resume(request):
     file = open('personal/templates/personal/documents/CV_Updated.pdf', 'rb')
     response = HttpResponse(file, content_type='application/pdf')
-    response['Content-Disposition'] = 'filename=CV_Updated.pdf'
     return response
