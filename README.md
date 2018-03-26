@@ -1,7 +1,7 @@
 ## Web Development - The Django Way
-Here in, we develop a portfolio website with blog using django. The best part is that, it offers lot of flexibiity and scalability. Things seem magical in django, but that's what we call THE DJANGO WAY.
+Here in, I develop a portfolio website with blog using django. The best part is that, it offers lot of flexibiity and scalability. Things seem magical in django, but that's what we call THE DJANGO WAY.
 
-This project uses a basic template [coutesy - bootstrap](https:getbootstrap.com) for front-end, instead the focus is on learning how things work in django.
+This project uses a basic template [courtesy - bootstrap](https:getbootstrap.com) for front-end which is modified accordingly, instead the focus is on django working at the backend. Feel free to fork and use this repo to your needs.
 
 ## Prerequisites
 1. Python 3.5
